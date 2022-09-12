@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Gypsy";
+  src: url("/home/ritvik/100dayjs/Day 41/fonts/Gypsy Curse.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1c2b2d;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+section h1 {
+  font-family: "Gypsy";
+  font-size: 8em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+section p {
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.game {
+  background: url("./images/forest.gif");
+  display: flex;
+  height: 400px;
+  width: 900px;
+  position: relative;
+  overflow: hidden;
+}
+
+#details {
+  display: flex;
+}
+
+#wolf,
+#hero {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+#wolf {
+  bottom: 0;
+  right: 0;
+  animation: wolf 3s steps(40) infinite;
+}
+
+#hero {
+  bottom: 0;
+  left: 0;
+}
+
+.jump {
+  animation: jump 1s;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translate(10px, -200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes wolf {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-900px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .game {
+    width: 500px;
+    height: 100%;
+  }
+  #wolf,
+  #hero {
+    width: 100px;
+    height: 100px;
+  }
+}

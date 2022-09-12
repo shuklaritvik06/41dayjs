@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --color-primary: #0f0e17;
+    --color-secondary:#f25f4c;
+    --button-color: #ff8906;
+    --para-color: #a7a9be;
+    --heading-color: #fffffe;
+    --color-tertiary:#e53170;
+}
+/* CSS Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: var(--color-primary);
+    font-family: "Open Sans",sans-serif;
+    height: 100vh;
+}
+
+/* Instructions */
+
+.instructions,hr,.options,#title,.content-link h2{
+    color: var(--heading-color);
+}
+.instructions{
+    width: 20%;
+    padding-left: 2rem ;
+    padding-top: 8rem;
+    background-color: var(--color-tertiary);
+    height: 100vh;
+}
+.instructions p{
+    padding: 0.8rem 0;
+}
+.instructions ol a {
+    text-decoration: none;
+    color: teal;
+}
+
+/* Link Area*/
+.title{
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+.op{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input.glink{
+    padding: 0.5rem;
+}
+textarea.embed{
+    width: 25rem;
+    margin: 1rem 0;
+}
+/* Buttons */
+.btn{
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    padding: 0.6rem;
+}
+.clear,.generate,.copy{
+    background-color: var(--color-tertiary);
+}
+.option{
+    background-color: var(--button-color);
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1535px){
+    .instructions {
+        width: 40%;
+    }
+}
+@media (max-width: 921px){
+    .instructions {
+       display: none;
+    }
+}

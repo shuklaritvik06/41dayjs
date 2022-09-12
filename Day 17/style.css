@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame{
+    height: 100vh;
+}
+.pass{
+    position: relative;
+}
+.bi{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}

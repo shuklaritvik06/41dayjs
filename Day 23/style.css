@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame{
+    height: 100vh;
+}
+img{
+    height: 300px;
+    width: 330px;
+}
+i{
+    right: 1.3rem;
+    top: 0.5rem;
+}
+#searchArea{
+    height: 600px;
+    overflow: scroll;
+}

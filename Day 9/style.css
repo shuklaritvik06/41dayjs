@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame,.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.frame{
+    height: 300px;
+    width: 500px;
+    box-shadow: 1px 1px 10px black;
+}
+.center{
+    text-align: center;
+}

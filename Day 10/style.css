@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame,.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.frame{
+    height: 400px;
+    width: 700px;
+    box-shadow: 1px 1px 10px black;
+}
+.title{
+    font-size: 2rem;
+}
+.status{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.img-status{
+    position: relative;
+    left: 40%;
+    margin-bottom: 10px;
+}

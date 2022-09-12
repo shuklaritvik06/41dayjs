@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./bg.svg") no-repeat;
+}
+i{
+    top: 0.5rem;
+    right: 1.1rem;
+}
+#lyrics{
+    height: 600px;
+    overflow: scroll;
+}

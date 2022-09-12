@@ -1,0 +1,1 @@
+`undefined` is the placeholder which is assigned to the variable when the js engine allocates a memory for it. It is not like `not defined`, not defined means that the variable is not in the global scope of the program and no memory is allocated for it. JS is a loosely typed lang.

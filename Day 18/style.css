@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background: url("./bg.jpg") no-repeat;
+}
+#note{
+    font-size: 50px;
+    font-weight: bold;
+}
+.keys{
+    margin-top: 60px;
+}
+.key{
+    padding: 60px;
+    border: 2px solid orange;
+    margin: 20px;
+    background-color: rgba(83, 83, 99, 0.46);
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.playing{
+    box-shadow: 2px 2px 8px white;
+    transition: all 0.3s ease;
+}
